@@ -1,9 +1,10 @@
-# OpenChain-JWG
+# OpenChain Project Japan Work Group ([English](https://openchain-project.github.io/OpenChain-JWG/index_en.html)/[日本語](https://openchain-project.github.io/OpenChain-JWG/index.html))
 
 ## This repository provides the outcomes of the [OpenChain Japan work group](https://openchain-project.github.io/OpenChain-JWG/index_en.html).
 
+## About OpenChain Project
 
-## About Japan Work Group
+## About OpenChain Project Japan Work Group
 
 * The brief explanation of Japan WG ([In Japanese](https://github.com/OpenChain-Project/Onboarding-JWG/blob/master/About_Japan-wg/About_JapanWG.md))
   * [slides](https://github.com/OpenChain-Project/Onboarding-JWG/blob/master/About_Japan-wg/OpenChain_JWG_Activities_20180806_r03.pdf) ([In Japanese](https://github.com/OpenChain-Project/Onboarding-JWG/blob/master/About_Japan-wg/OpenChain_JWG_Activities_CC0_20190205.pdf))
@@ -25,8 +26,6 @@
 ---
 ---
 
-# OpenChain Project Japan Work Group について
-
 ## OpenChain Projectについて
 * OpenChain Projectは、 Linux FoundationがホストするオープンなProjectで、OSS(Open Source Software)ライセンス遵守の促進活動を通じて、サプライチェーン（組織間）における信頼構築を目指しています
   * OSSライセンス遵守に関する仕様、カリキュラム、自己認証プログラムを提供しています
@@ -35,7 +34,7 @@
   * 一般メンバーは、誰でも自由に無償で活動に参加できます
 * 詳細は、Project General ManagerであるShane Coughlan <coughlan@linux.com>に問い合わせてください
 
-## OpenChain Japan Work Groupについて
+## OpenChain Project Japan Work Groupについて
 * OpenChain Japan Work Group（以降Japan WG）は、OpenChain Projectの一つの活動です
 * Japan WGは、日本・アジアを中心に、OSSライセンス遵守やOSS利用に関する課題解決を目指しています
 * 規約等については、Japan WGとして個別に設けておらず、OpenChain Projectの規約等に従います（本文書に書かれた内容以外に特に注意する事項はありません）
@@ -53,11 +52,13 @@
 * 企業・団体あるいは個人が自由に無償で参加できます
 * Japan WGは、有志による運営を行っています
 
-## このリポジトリではJapan WGの成果物を公開しています
+## このリポジトリの内容
+Japan WGの成果物を公開しています
 * 成果物の多くはCC0-1.0というライセンスで提供しています。CC0-1.0とは大雑把に言うと以下の通りです
- * 改変とか自由です
- * 作成者は責任は負いません
+  * 改変とか自由です
+  * 作成者は責任は負いません
 * 改善提案は歓迎します
+* [目次](CONTENTS.md)
 
 ## 関連情報
 * OpenChain project:
