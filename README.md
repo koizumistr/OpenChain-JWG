@@ -6,8 +6,8 @@
 
 ## About OpenChain Project Japan Work Group
 
-* The brief explanation of Japan WG ([In Japanese](https://github.com/OpenChain-Project/Onboarding-JWG/blob/master/About_Japan-wg/About_JapanWG.md))
-  * [slides](https://github.com/OpenChain-Project/Onboarding-JWG/blob/master/About_Japan-wg/OpenChain_JWG_Activities_20180806_r03.pdf) ([In Japanese](https://github.com/OpenChain-Project/Onboarding-JWG/blob/master/About_Japan-wg/OpenChain_JWG_Activities_CC0_20190205.pdf))
+* The brief explanation of Japan WG ([In Japanese](https://github.com/OpenChain-Project/OpenChain-JWG/blob/master/About_Japan-wg/About_JapanWG.md))
+  * [slides](https://github.com/OpenChain-Project/OpenChain-JWG/blob/master/About_Japan-wg/OpenChain_JWG_Activities_20180806_r03.pdf)
 
 * [wiki](https://wiki.linuxfoundation.org/openchain/openchain-japanese-working-group)
 
@@ -38,7 +38,7 @@
 * OpenChain Japan Work Group（以降Japan WG）は、OpenChain Projectの一つの活動です
 * Japan WGは、日本・アジアを中心に、OSSライセンス遵守やOSS利用に関する課題解決を目指しています
 * 規約等については、Japan WGとして個別に設けておらず、OpenChain Projectの規約等に従います（本文書に書かれた内容以外に特に注意する事項はありません）
-* Japan WG説明資料[スライド](https://github.com/OpenChain-Project/Onboarding-JWG/blob/master/About_Japan-wg/OpenChain_JWG_Activities_20180806_r03.pdf) ([日本語](https://github.com/OpenChain-Project/Onboarding-JWG/blob/master/About_Japan-wg/OpenChain_JWG_Activities_CC0_20190205.pdf))
+* Japan WG説明資料[スライド](https://github.com/OpenChain-Project/OpenChain-JWG/blob/master/About_Japan-wg/OpenChain_JWG_Activities_CC0_20190205.pdf)
 * OpenChain Projectの規約等については、Project General ManagerであるShane Coughlan <coughlan@linux.com>に問い合わせてください
 
 ## Japan WGの主な活動
