@@ -2,21 +2,6 @@
 
 ## This repository provides the outcomes of the [OpenChain Japan work group](https://openchain-project.github.io/OpenChain-JWG/index_en.html).
 
- We'll share the outcomes in this repository and here's a current list.
-
-* [Case Study](https://github.com/OpenChain-Project/Onboarding-JWG/tree/master/CaseStudy)
-  * Organization to promote OSS
-  * Education
-  * Business workflow diagram
-
-* [Education Material](https://github.com/OpenChain-Project/Onboarding-JWG/tree/master/Education_Material)
-  * Misunderstanding of OSS license
-
-* [Leaflet](https://github.com/OpenChain-Project/Onboarding-JWG/tree/master/Leaflet)
-  * 1 page version and 2 page version
-
-* [Report of Studies into Business Workflows and Defined Roles for Software Development](https://github.com/OpenChain-Project/Onboarding-JWG/blob/master/CaseStudy/BusinessFlow/Report-of-business-workflow-and-roles.md)
-
 
 ## About Japan Work Group
 
@@ -38,37 +23,47 @@ or
 ---
 ---
 
-## このリポジトリでは[OpenChain Japan Work Group](https://openchain-project.github.io/OpenChain-JWG/index.html)の成果物を提供します
+# OpenChain Project Japan Work Group について
 
-作業成果物をこのリポジトリで管理しています。現状では以下のような資料があります。
+## OpenChain Projectについて
+* OpenChain Projectは、 Linux FoundationがホストするオープンなProjectで、OSS(Open Source Software)ライセンス遵守の促進活動を通じて、サプライチェーン（組織間）における信頼構築を目指しています
+  * OSSライセンス遵守に関する仕様、カリキュラム、自己認証プログラムを提供しています
+* OpenChain Projectでは、プラチナメンバーと一般メンバーが定義されています
+  * プラチナメンバーは、有償で、OpenChain Projectのボード会議に参加できます
+  * 一般メンバーは、誰でも自由に無償で活動に参加できます
+* 詳細は、Project General ManagerであるShane Coughlan <coughlan@linux.com>に問い合わせてください
 
-* [ケーススタディ](https://github.com/OpenChain-Project/Onboarding-JWG/tree/master/CaseStudy)
-  * OSS推進組織
-  * 教育
-  * ビジネス ワークフロー図
+## OpenChain Japan Work Groupについて
+* OpenChain Japan Work Group（以降Japan WG）は、OpenChain Projectの一つの活動です
+* Japan WGは、日本・アジアを中心に、OSSライセンス遵守やOSS利用に関する課題解決を目指しています
+* 規約等については、Japan WGとして個別に設けておらず、OpenChain Projectの規約等に従います（本文書に書かれた内容以外に特に注意する事項はありません）
+* Japan WG説明資料[スライド](https://github.com/OpenChain-Project/Onboarding-JWG/blob/master/About_Japan-wg/OpenChain_JWG_Activities_20180806_r03.pdf) ([日本語](https://github.com/OpenChain-Project/Onboarding-JWG/blob/master/About_Japan-wg/OpenChain_JWG_Activities_CC0_20190205.pdf))
+* OpenChain Projectの規約等については、Project General ManagerであるShane Coughlan <coughlan@linux.com>に問い合わせてください
 
-* [教育資料](https://github.com/OpenChain-Project/Onboarding-JWG/tree/master/Education_Material)
-  * OSSライセンス関連でよくある誤解
+## Japan WGの主な活動
+* OSSライセンス遵守やOSS利用に関して、メンバーが抱える課題を議論し、解決案を提案していきます（国内会合、ML等）
+* OpenChain Project主催の国際会議、電話会議、ML等へ参加し、Japan WG活動で得られた成果や意見をOpenChain Projectへ発信しています
+* 日本を中心拠点として活動を行っています
+* サプライチェーンで重要なパートナーであるアジア各国（中国、台湾、韓国等）との連携を図ります
 
-* [リーフレット](https://github.com/OpenChain-Project/Onboarding-JWG/tree/master/Leaflet)
-  * 1ページ版および2ページ版
+## Japan WGメンバー
+* Japan WGは、オープン コミュニティ活動です
+* 企業・団体あるいは個人が自由に無償で参加できます
+* Japan WGは、有志による運営を行っています
 
-* [Report of Studies into Business Workflows and Defined Roles for Software Development](https://github.com/OpenChain-Project/Onboarding-JWG/blob/master/CaseStudy/BusinessFlow/Report-of-business-workflow-and-roles.md)
+## このリポジトリではJapan WGの成果物を公開しています
+* 成果物の多くはCC0-1.0というライセンスで提供しています。CC0-1.0とは大雑把に言うと以下の通りです
+ * 改変とか自由です
+ * 作成者は責任は負いません
+* 改善提案は歓迎します
 
-## Japan Work Groupの説明
+## 関連情報
+* OpenChain project:
+  * Website: https://www.openchainproject.org/
+  * GitHub: https://github.com/OpenChain-Project
+  * ML: main@lists.openchainproject.org
+  * Translations: https://www.openchainproject.org/translations
 
-* Japan WG説明資料 ([日本語](https://github.com/OpenChain-Project/Onboarding-JWG/blob/master/About_Japan-wg/About_JapanWG.md))
-  * [スライド](https://github.com/OpenChain-Project/Onboarding-JWG/blob/master/About_Japan-wg/OpenChain_JWG_Activities_20180806_r03.pdf) ([日本語](https://github.com/OpenChain-Project/Onboarding-JWG/blob/master/About_Japan-wg/OpenChain_JWG_Activities_CC0_20190205.pdf))
-
-* [wiki](https://wiki.linuxfoundation.org/openchain/openchain-japanese-working-group)
-
-
-## 貢献（Contribution）の方法
-
-* 自分の手元にクローンを作り、変更案を作成する
-
-* Pull Requestを提出する
-
-または、
-
-* Issue Listに変更案やコメントを記載する
+* Japan WG:
+  * Website: https://openchain-project.github.io/OpenChain-JWG/
+  * ML: japan-wg@lists.openchainproject.org
