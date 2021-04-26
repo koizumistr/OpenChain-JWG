@@ -10,15 +10,17 @@
 
 * [wiki](https://wiki.linuxfoundation.org/openchain/openchain-japanese-working-group)
 
-## Contribution
 
-* to make clone and work at your local
+## See Also
+* OpenChain project:
+  * Website: https://www.openchainproject.org/
+  * GitHub: https://github.com/OpenChain-Project
+  * ML: main@lists.openchainproject.org
+  * Translations: https://www.openchainproject.org/translations
 
-* to send pull request of your change 
-
-or 
-
-* write your change or comment on Issue list
+* Japan WG:
+  * Website: https://openchain-project.github.io/OpenChain-JWG/
+  * ML: japan-wg@lists.openchainproject.org
 
 ---
 ---
