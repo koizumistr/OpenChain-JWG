@@ -5,7 +5,7 @@
 - 場所 / Location
   - リアル会場(real):
     - サイバートラスト本社 @ 港区六本木1丁目9番10号 アークヒルズ仙石山森タワー 35階
-    - https://www.cybertrust.co.jp/corporate/office
+    - https://www.cybertrust.co.jp/corporate/office.html
   - オンラインでも同時配信 / broadcast online at the same time
     - https://zoom-lfx.platform.linuxfoundation.org/meeting/97400635609?password=1ff94859-9f7c-47fc-9fb3-7aa4b6594ed8
 
