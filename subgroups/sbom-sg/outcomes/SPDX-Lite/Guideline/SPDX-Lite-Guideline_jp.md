@@ -100,7 +100,7 @@ SPDXの仕様のバージョンを記載します。
 
 ### L1.2  Data License
 SPDX Liteファイルのライセンスを記載します。
-SPDXの仕様に従うためには、本項目にはCC0-1.0"と記載します。
+SPDXの仕様に従うためには、本項目には"CC0-1.0"と記載します。
 
 ### L1.3  SPDX Identifier
 SPDX Liteファイルの識別子です。SPDXの仕様に従い、ここには"SPDXRef-DOCUMENT"と記載します。
