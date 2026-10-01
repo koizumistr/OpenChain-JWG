@@ -155,21 +155,23 @@ SPDX Liteファイルを手作業で作成する場合に"false"を記載しま�
 ※ Package Download Location（L2.5）が「ファイルそのものの取得先」を指すのに対し、Package Home Page（L2.7）は「プロジェクトや製品のWebサイト」を指します。
 
 ### L2.8  Concluded License
-SPDX Liteファイルの作成者がソフトウェア パッケージに適用されると結論したライセンスを記載します。 Concluded LicenseがDeclared Licenseと異なる場合、Comments on Licenseに説明を記載すべきです。 NOASSERTIONに関しては、Comments on Licenseに説明を記載した方が良いです。 本項目は使用しているソフトウェアのライセンスを特定するために利用します。
-なお、記載するライセンス名は下記URLのSPDX License ListのIdentifierに従って記載する事を推奨します。 https://spdx.org/licenses/
+SPDX Liteファイルの作成者がソフトウェア パッケージに適用されると結論したライセンスを記載します。（例: デュアルライセンス等の複数の選択肢から自組織で選択・特定したライセンスなど）
+Concluded LicenseがDeclared Licenseと異なる場合、Comments on Licenseに説明を記載すべきです。 NOASSERTIONと記載する場合には、Comments on Licenseに説明を記載した方が良いです。 本項目は使用しているソフトウェアのライセンスを特定するために利用します。
+なお、記載するライセンス名は[SPDX License ListのIdentifier](https://spdx.org/licenses/
+)に従って記載する事を推奨します。
 
 ### L2.9  Declared License
-ソフトウェア パッケージの作成者が宣言したライセンスを記載します。
-なお、記載するライセンス名は下記URLのSPDX License ListのIdentifierに従って記載する事を推奨します。 https://spdx.org/licenses/
+ソフトウェア パッケージの作成者が宣言したライセンスを記載します。複数のライセンスが含まれている場合は、SPDX構文に従い「AND」や「OR」を用いて併記・列記します（例: LGPL-2.1-only AND MIT）。
+なお、記載するライセンス名は[SPDX License ListのIdentifier](https://spdx.org/licenses/)に従って記載する事を推奨します。
 
 ### L2.10  Comments on License
-SPDX Liteファイルの作成者がライセンスに関連する情報やライセンスを結論した理由を記載します。 本項目は使用しているソフトウェアのライセンスを補足するために利用します。
-このタグには、「"Concluded License"記載の論拠」などライセンスに関わる情報に絞って記載されます。
+SPDX Liteファイルの作成者がライセンスに関連する補足情報やライセンスを結論した（Concluded）理由を記載します。 本項目は「Concluded LicenseとDeclared Licenseが異なる理由」や「判断が困難でNOASSERTIONとした背景」など、ライセンス判断に関する具体的な根拠や留意事項を補足するために利用します。
 
 ### L2.11  Copyright Text
-ソフトウェア パッケージの著作権者情報を記載します。
-すべての著作権者情報を抽出する事が難しい場合はソースコードを一緒に提供します。
-特定のライセンスでは配布時に著作権者情報を提供する必要があります。本項目は使用しているソフトウェアの著作権者情報を特定するために利用します。
+ソフトウェア パッケージの著作権表示[^copyrighttext]を記載します。
+特定のライセンスでは配布時に著作権表示を提供する必要があります。本項目は使用しているソフトウェアの著作権表示を特定するために利用します。
+
+[^copyrighttext]: ここでの「著作権表示」は法律上の詳細な著作権区分（著作者人格権・財産権等）の分析を求めるものではありません。ソースコード等にテキストとして記載されている、例えば「Copyright 2026 Sample Software Works Inc.」、「(c) 2026 Sample Software Works Inc.」、「Copyright 2018-2022 Project Authors, 2026 Taro Yamada」などの文字列を指します。
 
 ### L2.12  Package Comment
 本項目は、SPDXの仕様上、自由記載が可能な項目であり、例えば、サプライチェーンにおけるライセンス管理に有効な、下記のようなソフトウェア パッケージに関する、追加情報の記載を行うことが可能です。
@@ -186,7 +188,7 @@ OSSのソースコードに独自の修正を加えたり、OSSのソースコ�
 
 (3) Any other sub-tags
 ソフトウェア パッケージに関する、追加情報であれば、任意のサブタグを追加可能です。例えば、以下のサブタグを記載することが考えられます。
-##### LinkMethodology
+#### LinkMethodology
 特定のライセンスではソフトウェアのリンク方法によって、他にも影響を与えます。そのため、ソフトウェアのリンク方法を明示するために本項目を利用します。 ソフトウェア パッケージに含まれるソフトウェアが動的リンク又は静的リンクのどちらを用いているかを記載します。
 
 ### L3.1  License Identifier
@@ -315,18 +317,17 @@ SPDX Liteフォーマットによるライセンス情報ファイルは、概�
 #### L2.8 Concluded License
 -> GPL-2.0-only
 
-ソースコード内の「LICENSE」やホームページ内から判断し、ソフトウェア パッケージに適用されると結論したライセンスを記載します。
+ソースコード内の「LICENSE」やホームページ等から判断し、最終的にソフトウェア パッケージに適用されると結論したライセンスを記載します。デュアルライセンスのように複数のライセンスが宣言されている場合は、選択したライセンスを記載します。
+
+※入手したソースコードと修正パッチを分離して提供する場合など、改変に伴う詳細なライセンスの扱いについては末尾の「補足」を参照してください。
 
 入手したソースコード内の「COPYING」,「LICENSE」,「README」などのファイルや各ソースファイルのヘッダー部分を確認してください。 ソースコード内にライセンスが記載されたファイルが無い場合は、特定したPackage Home Pageにライセンスの情報があるか確認してください。
 
-Concluded LicenseがDeclared Licenseと異なる場合、Comments on Licenseに説明を記載すべきです。 NOASSERTIONに関しては、Comments on Licenseに説明を記載した方が良いです。
-
-入手したソースコードに修正を加えて、ソフトウェア パッケージに仕立てる場合で、提供物を「入手したソースコード」と、「修正パッチ」を別々のファイルとして提供する場合でも、「修正パッチ」の側には、修正パッチを作成した組織・企業が定義したライセンス条件が記載されますが、多くの場合、「入手したソースコード」のライセンス条件に沿ったライセンスを与えられます。
+Concluded LicenseがDeclared Licenseと異なる場合、Comments on Licenseに説明を記載すべきです。 NOASSERTIONと記載する場合には、Comments on Licenseに説明を記載した方が良いです。
 
 OSSではなく、プロプライエタリな提供物に関するライセンス情報ファイルでは、このタグは、「Proprietary」との記述になります。
 
-なお、記載するライセンス名は下記URLのSPDX License ListのIdentifierに従って記載する事を推奨します。 https://spdx.org/licenses/
-
+なお、記載するライセンス名は[SPDX License ListのIdentifier](https://spdx.org/licenses/)に従って記載する事を推奨します。
 
 #### L2.9 Declared License
 -> GPL-2.0-only
@@ -334,27 +335,25 @@ OSSではなく、プロプライエタリな提供物に関するライセン�
 ソフトウェア パッケージの作成者が宣言したライセンスを、入手したソースコード内の「COPYING」,「LICENSE」,「README」などのファイルや各ソースファイルのヘッダー部分を確認して記載します。
 ソースコード内にライセンスが記載されたファイルが無い場合は、特定したPackage Home Pageにライセンスの情報があるか確認してください。
 
-ソフトウェア パッケージが、複数の、幾つかの相互に互換性のあるライセンス(混在して構わないライセンス)を持つ部品から構成されている場合、それらのライセンスを列記します。
+ソフトウェア パッケージが、複数のライセンスを持つ部品から構成されている場合、それらのライセンスをSPDX規約に則り「AND」演算子等を用いて併記・列記します。
+【記載例】
+LGPL-2.1-only AND MIT
 
-なお、記載するライセンス名は下記URLのSPDX License ListのIdentifierに従って記載する事を推奨します。 https://spdx.org/licenses/
+なお、記載するライセンス名は[SPDX License ListのIdentifier](https://spdx.org/licenses/)に従って記載する事を推奨します。
 
 #### L2.10 Comments on License
--> NOASSERTION
+-> NOASSERTION（または「Declared LicenseはGPL-2.0 / BSDのデュアルライセンスだが、自組織としてはGPL-2.0を選択した」等の補足文章）
 
-入手したソースコードのライセンス情報が複雑な場合などに、このタグを利用しますが、そうでなければ、NOASSERTIONを記載します。
-
-
+Concluded Licenseの決定根拠や、ライセンス情報が複雑で補足が必要な場合に具体的な説明を記載します。特段の補足情報がない場合は NOASSERTION を記載します。
 
 #### L2.11 Copyright Text
 -> NOASSERTION
 
-一緒にソースコードを提供するならば、すべての著作権表示を抽出する事が難しいとして、NOASSERTIONを記載して構いません。
+今回は、ソースコードも併せて提供していますので、改めてパッケージ内のすべての著作権表示を抽出するのではなく、NOASSERTIONと記載しています。これでも差し支えありません。
 
+OSSではなく、プロプライエタリな提供物に関するライセンス情報ファイルでは、本項目にその提供物の著作権表示を記載します。（例えば、自社で作成したものであれば、「Copyright 2026 Our Company Co.」などの自社の著作権表示。）
 
-OSSではなく、プロプライエタリな提供物に関するライセンス情報ファイルでは、このタグに著作権者情報を記載します。
-
-
-### L2.12  Package Comment
+#### L2.12  Package Comment
 本項目は、SPDXの仕様上、自由記載が可能な項目であり、例えば、サプライチェーンにおけるライセンス管理に有効な、下記のようなソフトウェア パッケージに関する、追加情報の記載を行ないます。
 
 (1)ModificationRecord
@@ -372,7 +371,7 @@ OSSではなく、プロプライエタリな提供物に関するライセン�
 (3) Any other sub-tags
 ソフトウェア パッケージに関する、追加情報であれば、任意のサブタグを追加可能です。例えば、以下のサブタグを記載することが考えられます。
 
-##### LinkMethodology
+#### LinkMethodology
 -> 記載しない、もしくは、Static あるいは Dynamic Link
 
 特定のライセンスではソフトウェアのリンク方法によって、他にも影響を与えます。そのため、ソフトウェアのリンク方法を明示するために本項目を利用します。 ソフトウェア パッケージに含まれるソフトウェアが動的リンク又は静的リンクのどちらを用いているかを記載します。
@@ -380,35 +379,32 @@ OSSではなく、プロプライエタリな提供物に関するライセン�
 busyboxのように、アプリケーション一式をソフトウェア パッケージとして提供する場合には、リンク方法によって、入手元のライセンス条件が変ることはありまませんので、記載しないことになります。
 
 
-### L3.1  License Identifier
+#### L3.1  License Identifier
 -> NOASSERTION あるいは SPDXRef-LICENSE-00001
 
 SPDX License Listに掲載されていないライセンスの場合、識別子を記載します。SPDX Liteファイルの中で一意になるように決めてください。それ以外は提供する側で自由に決めて構いません。 本項目は使用しているソフトウェアのライセンスを特定するために利用します。
 
-### L3.2  Extracted Text
+#### L3.2  Extracted Text
 -> NOASSERTION
 
 SPDX License Listに掲載されていないライセンスの場合、ライセンス条文を記載します。
 このタグに記載を行う場合には、ライセンス条文の全文を記載します。
 
-### L3.3  License Name
+#### L3.3  License Name
 -> NOASSERTION
 
 SPDXライセンス リストに掲載されていないライセンスの場合、ライセンス名を記載します。
 このタグに記載を行う場合には、ライセンス名として記載されているライセンス条文のタイトルなど転記します。
 
-### L3.4  License Comment
+#### L3.4  License Comment
 -> NOASSERTION
 
 SPDXライセンス リストに掲載されていないライセンスの場合、ライセンスに関連する情報を記載します。
 本項目は使用しているソフトウェアのライセンスを補足するために利用します。
 
-
-
-
 ## 4. ライセンス情報のサンプル
 
-#### Microsoft ExcelによるSPDX Lite記入テンプレート
+### Microsoft ExcelによるSPDX Lite記入テンプレート
 SPDX LiteをMicrosoft Excelで手書き記入する場合のテンプレート
 https://github.com/OpenChain-Project/OpenChain-JWG/blob/master/subgroups/sbom-sg/outcomes/SPDX-Lite/template/SPDXLite-Template.xltx
 
@@ -419,24 +415,24 @@ https://github.com/OpenChain-Project/OpenChain-JWG/blob/master/subgroups/sbom-sg
 
 (* )概ね、記載変更の必要がないため、別個のシートとして独立したテンプレートにしています。
 
-#### OSS単独の構成
+### OSS単独の構成
 例)SPDX tools https://github.com/OpenChain-Project/OpenChain-JWG/blob/master/subgroups/sbom-sg/outcomes/SPDX-Lite/sample/SPDX-tools-spdxlite.txt
 
-#### 受託開発の納品物でOSSを利用している構成
+### 受託開発の納品物でOSSを利用している構成
 受託開発の納品物で複数のOSSを利用している場合の記載例
 https://github.com/OpenChain-Project/OpenChain-JWG/blob/master/subgroups/sbom-sg/outcomes/SPDX-Lite/sample/SPDX-Lite-sample.xlsx
 
-#### その他の記載例
+### その他の記載例
 複数のOSSが含まれるパッケージなどの記載例を、以下に収納しています(* )。
 https://github.com/OpenChain-Project/OpenChain-JWG/tree/master/subgroups/sbom-sg/outcomes/SPDX-Lite/sample
 
 (* )これらの事例を収めたシートは、一部、議論途上もしくは古い仕様案で記載されたものがあります。準拠すべきフォーマットについては、最新版のテンプレートをご利用ください。
 
-#### 組込み製品でOSSを活用している構成
+### 組込み製品でOSSを活用している構成
 例)Linux kernelソースコードの入手先が変わる一例
 (サプライチェーンを下っていくに従って、「入手先」を記載変更する事例）
 
-#### サプライチェーンで受け渡す際の構成
+### サプライチェーンで受け渡す際の構成
 4社の受託開発の納品物で複数のOSSを利用している場合の記載例
 4社からそれぞれ納品されるOSS情報を1ファイルに纏め、
 サプライチェーン上流にOSS情報を受け渡す場合の例になります。
@@ -454,7 +450,7 @@ https://github.com/OpenChain-Project/OpenChain-JWG/blob/master/subgroups/sbom-sg
 ### L2.4 Package File Name
 入手したソースコードに修正を加えて、ソフトウェア パッケージに仕立てる場合で、提供物を「入手したソースコード」と、「修正パッチ」を別々のファイルとして提供する場合、ライセンス情報ファイルも、提供するソースファイル・パッチのそれぞれに別個に作成することが望ましく、「入手したソースコード」のファイル名は、ダウンロードなどで入手した時点の、正確なファイル名を記載します。
 
-## L2.5 Package Download Location
+### L2.5 Package Download Location
 入手したソースコードに修正を加えて、ソフトウェア パッケージに仕立てる場合で、提供物を「入手したソースコード」と、「修正パッチ」を別々のファイルとして提供する場合、ライセンス情報ファイルも、提供するソースファイル・パッチのそれぞれに別個に作成することが望ましく、「入手したソースコード」のダウンロード先を、「入手したソースコード」のライセンス情報に記載します。
 「修正パッチ」のダウンロード先についても、可能ならば、「修正パッチ」のライセンス情報ファイルに記載しますが、物理媒体で納品する場合などには「NOASSERTION」と記載します。
 
@@ -465,3 +461,6 @@ https://github.com/OpenChain-Project/OpenChain-JWG/blob/master/subgroups/sbom-sg
 入手したソースコードに修正を加えて、ソフトウェア パッケージに仕立てる場合で、提供物を「入手したソースコード」と、「修正パッチ」を別々のファイルとして提供する場合、ライセンス情報ファイルも、提供するソースファイル・パッチのそれぞれに別個に作成することが望ましく、「入手したソースコード」の開発プロジェクトが開設しているプロジェクト紹介サイトなどを、「入手したソースコード」のライセンス情報に記載します。
 
 一方、入手したソースコードに修正を加えて、ソフトウェア パッケージに仕立て、提供物を「修正後のソースコードを一体で」提供する場合や、「修正パッチ」のライセンス情報ファイルを別個に作成する場合、「修正後のソフトウェア パッケージ」や「修正パッチ」の情報サイト（製品情報のページなど）についても、可能ならばライセンス情報ファイルに記載しますが、個別の受託開発などで情報サイトなどを設けていない場合などには「NOASSERTION」と記載します。
+
+### L2.8 Concluded License
+入手したソースコードに修正を加えて、ソフトウェア パッケージに仕立てる場合で、提供物を「入手したソースコード」と、「修正パッチ」を別々のファイルとして提供する場合でも、「修正パッチ」の側には、修正パッチを作成した組織・企業が定義したライセンス条件が記載されますが、多くの場合、「入手したソースコード」のライセンス条件に沿ったライセンスを与えられます。
