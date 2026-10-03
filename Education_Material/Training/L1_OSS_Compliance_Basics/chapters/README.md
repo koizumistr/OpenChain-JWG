@@ -1,8 +1,8 @@
-# 教育資料(コンプライアンスプログラム・バージョン)
+# OSSコンプライアンス基礎
 
 ## 本体
 
-1. [教育資料(コンプライアンスプログラム・バージョン)とは？](Introduction.md)
+1. [OSSコンプライアンス基礎とは？](Introduction.md)
 1. [OSSとは](What_is_OSS.md)
 1. [知的財産権](Intellectual_Property.md)
 1. [OSSライセンス](OSS_License.md)
