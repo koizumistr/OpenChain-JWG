@@ -38,6 +38,7 @@ These educational material were created to be useful as materials for composing 
 We try to make it as error-free as possible, but all the materials here are not guaranteed (pointing out any errors or typos are welcome, though). Also, please be aware that reading the materials here does not guarantee compliance with the OpenChain specifications or acquisition of its certification.
 
 2. **OSS Licenses Basics (Level 2)**
+
 These educational materials are intended for companies to acquire basic knowledge of license when conducting supply chain risk management of OSS. They are released under the [Creative Commons CC0 1.0 Universal](http://creativecommons.org/publicdomain/zero/1.0/legalcode) license, so feel free to modify and use them.
 We try to make it as error-free as possible, but all the materials here are not guaranteed (pointing out any errors or typos are welcome, though). Also, please be aware that reading the materials here does not guarantee compliance with the OpenChain specifications or acquisition of its certification.
 
