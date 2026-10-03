@@ -8,7 +8,7 @@ OpenChain Japan WG 教育SGでは、下記の3つの教育資料を作成して�
 できる限り誤りがないように作成はしていますが、ここにある資料はすべて無保証です（とは言っても誤りの指摘等は大歓迎です）。また、ここにある資料を読んだからといって、OpenChainの仕様書準拠や認定取得が保証されるわけではありませんので、ご承知おきください。
 
 - [OSSコンプライアンス基礎](L1_OSS_Compliance_Basics/chapters)
-- [OSSコンプライアンス基礎(pptxファイル版)](L1_OSS_Compliance_Basics/Training-OSS-compl-process-jp.pptx)
+- [OSSコンプライアンス基礎(pptxファイル版)](L1_OSS_Compliance_Basics/OSS_Compliance_Basics.pptx)
 	- 上記「OSSコンプライアンス基礎」（mdファイル版）の元になったファイルです。最新の状況はmdファイル版を見て欲しいのですが、内容が多少古くなっても1つのpptxファイルとなっているものもあると便利かと考え、公開しています。
 - [2020年4月23日の全体会議での資料](L1_OSS_Compliance_Basics/OpenChain_JapanWG_教育Sub-WG_20200423.pptx)
 	- 2020年4月23日の全体会議で教育SGの活動を紹介した資料です。「OSSコンプライアンス基礎」（作成時点の名称は「教育資料(コンプライアンスプログラム･バージョン)」でした）を作成することになった背景や経緯等が書いてあります。「OSSコンプライアンス基礎」を活用する際の参考にしてください。
