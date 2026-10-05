@@ -16,3 +16,4 @@ These educational materials are intended for companies to acquire basic knowledg
 We try to make it as error-free as possible, but all the materials here are not guaranteed (pointing out any errors or typos are welcome, though). Also, please be aware that reading the materials here does not guarantee compliance with the OpenChain specifications or acquisition of its certification.
 
 - [OSS Licenses Basics (pptx file version)](OSS_Licenses_Basics_en.pptx)
+- [OSS Licenses Basics (pdf file version)](OSS_Licenses_Basics_en.pdf)

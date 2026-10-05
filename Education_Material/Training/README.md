@@ -2,6 +2,12 @@
 
 OpenChain Japan WG 教育SGでは、下記の3つの教育資料を作成しています。
 
+**📌 各資料の選び方**
+* **入門・全体研修**：[レベル 1：OSSコンプライアンス基礎](L1_OSS_Compliance_Basics/)
+* **知識の深化・リスク管理**：[レベル 2：OSSライセンス基礎](L2_OSS_Licenses_Basics/)
+* **実務での確認・リファレンス**：[レベル 3：OSSコンプライアンス実務](L3_OSS_Compliance_Practical/)
+
+
 1. **OSSコンプライアンス基礎（レベル 1）**
 
 この教育資料は、各企業が社内に向けてOSSのコンプライアンスに関する教育を（初めて）行なう際に、OpenChainの仕様に準じた形で教育コンテンツを構成するための材料として役に立つことを目指して作成されています。[Creative Commons CC0 1.0 Universal](http://creativecommons.org/publicdomain/zero/1.0/legalcode)ライセンスの下でリリースされていますので、自由に改変してご活用ください。（実際、各企業がその実態に合わせて記入することを期待している章もあります。）
@@ -44,6 +50,7 @@ These educational materials are intended for companies to acquire basic knowledg
 We try to make it as error-free as possible, but all the materials here are not guaranteed (pointing out any errors or typos are welcome, though). Also, please be aware that reading the materials here does not guarantee compliance with the OpenChain specifications or acquisition of its certification.
 
 - [OSS Licenses Basics (pptx file version)](L2_OSS_Licenses_Basics/OSS_Licenses_Basics_en.pptx)
+- [OSS Licenses Basics (pdf file version)](L2_OSS_Licenses_Basics/OSS_Licenses_Basics_en.pdf)
 
 3. **OSS Compliance Practical (Level 3)**
 
