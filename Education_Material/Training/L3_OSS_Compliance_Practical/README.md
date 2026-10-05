@@ -6,7 +6,7 @@
 又、できる限り誤りがないように作成はしていますが、ここにある資料はすべて無保証です（とは言っても誤りの指摘等は大歓迎です）。
 
 - [OSSコンプライアンス実務](OSS_Compliance_Practical_jp.docx)
-
+- [OSSコンプライアンス実務(pdf版)](L3_OSS_Compliance_Practical/OSS_Compliance_Practical_jp.pdf)
 
 # Educational and training materials
 

@@ -6,7 +6,7 @@
 又、できる限り誤りがないように作成はしていますが、ここにある資料はすべて無保証です（とは言っても誤りの指摘等は大歓迎です）。
 
 - [OSSライセンス基礎](L2_OSS_Licenses_Basics/OSS_Licenses_Basics_jp.pptx)
-
+- [OSSライセンス基礎(pdf版)](L2_OSS_Licenses_Basics/OSS_Licenses_Basics_jp.pdf)
 
 # Educational and training materials
 
