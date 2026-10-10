@@ -157,8 +157,7 @@ SPDX Liteファイルを手作業で作成する場合に"false"を記載しま�
 ### L2.8  Concluded License
 SPDX Liteファイルの作成者がソフトウェア パッケージに適用されると結論したライセンスを記載します。（例: デュアルライセンス等の複数の選択肢から自組織で選択・特定したライセンスなど）
 Concluded LicenseがDeclared Licenseと異なる場合、Comments on Licenseに説明を記載すべきです。 NOASSERTIONと記載する場合には、Comments on Licenseに説明を記載した方が良いです。 本項目は使用しているソフトウェアのライセンスを特定するために利用します。
-なお、記載するライセンス名は[SPDX License ListのIdentifier](https://spdx.org/licenses/
-)に従って記載する事を推奨します。
+なお、記載するライセンス名は[SPDX License ListのIdentifier](https://spdx.org/licenses/)（MITやApache-2.0など、主要なオープンソースライセンスの標準識別子）に従って記載する事を推奨します。
 
 ### L2.9  Declared License
 ソフトウェア パッケージの作成者が宣言したライセンスを記載します。複数のライセンスが含まれている場合は、SPDX構文に従い「AND」や「OR」を用いて併記・列記します（例: LGPL-2.1-only AND MIT）。
